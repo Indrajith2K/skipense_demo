@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "javascript-obfuscator": "^5.8.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
